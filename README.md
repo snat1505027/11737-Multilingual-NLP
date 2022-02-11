@@ -1,17 +1,28 @@
 ## Baseline with Hyperparamter Tuning 
 
-python mainXwandb.py --mode train --lang en
+Training:
 
-python mainXwandb.py --mode eval --lang en
+``python mainXwandb.py --mode train --lang en``
+
+Evaluation:
+
+``python mainXwandb.py --mode eval --lang en``
 
 
 ### POS Tagger with mBERT Word Embedding
 
-python mainXbert.py --mode train --lang en
+Training:
 
-python mainXbert.py --mode eval --lang en
+``python mainXbert.py --mode train --lang en``
+
+Evaluation:
+
+``python mainXbert.py --mode eval --lang en``
 
 
 ### POS Tagger with mBERT Contextualized Embedding
 
-python main.py --lang en --batch_size 32
+
+Training + Evaluation:
+
+``python main.py --lang en --batch_size 32``
